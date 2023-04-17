@@ -1,5 +1,5 @@
 ---
-{"title":"Seq2Seq 모델","date_created":"2023-02-17","date_modified":"2023-02-17","tags":["nlp","pytorch","torch","transformer","attention"],"dg-publish":true,"alias":"Seq2Seq 모델","dg-path":"nlp/seq2seq.md","permalink":"/nlp/seq2seq/","dgPassFrontmatter":true,"created":"2023-02-17","updated":"2023-02-17"}
+{"title":"Seq2Seq 모델","date_created":"2023-02-17","date_modified":"2023-02-17","tags":["nlp","pytorch","torch","transformer","attention"],"dg-publish":true,"dg-path":"nlp/seq2seq.md","permalink":"/nlp/seq2seq/","dgPassFrontmatter":true,"created":"2023-02-17","updated":"2023-02-17"}
 ---
 
 
@@ -32,7 +32,9 @@
 > - ex) 단어(word) : 글자(character)들의 시퀸스. 단어를 구성하는 글자들의 순서가 바뀌면 다른 의미의 단어가 된다.
 > - ex) 문장(sentence) : 단어 또는 글자들의 시퀸스. 문장을 구성하는 단어 또는 글자들의 순서가 바뀌면 다른 의미의 문장이 된다.
 
-![title: Fig.01 Seq2Seq 모델 | description: 영어 문장 "I am a student."를 프랑스어 "Je suis étudiant."로 번역하는 Seq2Seq 모델. 왼쪽 주황색 사각형이 인코더(encoder)를, 오른쪽 녹색 사각형이 디코더(decoder)를 나타내고 있음. 인코더는 입력 문장("I am a student.")를 입력받아 컨텍스트 벡터(context vector)를 출력하고, 디코더는 컨텍스트 벡터와 시작 토큰(&lt;sos&gt;)을 입력으로 받아 출력 문장("Je suis étudiant.")을 출력한다.](/img/user/Knowledge Base/nlp/seq2seq.png)
+
+
+![seq2seq.png](/img/user/Knowledge%20Base/nlp/seq2seq.png)
 
 ## Seq2Seq 모델의 동작 방법
 
@@ -58,7 +60,9 @@
 - 하지만 이 방식으로 학습(training)을 시키면 디코더가 잘 학습되지 않음
 - **교사 강요(teacher forcing)** : 모델 학습 시 디코더의 입력값으로 이전 시점의 디코더 출력 단어가 아닌 실제 정답 단어를 입력
 
-![title: Fig.02 Seq2Seq - Teacher Forcing | description: Seq2Seq 모델의 학습은 교사 강요(teacher forcing) 방식으로 진행해야 한다. 즉 "&lt;sos&gt;je suis étudiant"가 입력되었을 때 "je suis étudiant&lt;eos&gt;"가 출력되어야 한다는 것을 디코더에게 직접 알려줘야 한다.](/img/user/Knowledge Base/nlp/seq2seq-teacher-forcing.png)
+
+
+![seq2seq-teacher-forcing.png](/img/user/Knowledge%20Base/nlp/seq2seq-teacher-forcing.png)
 
 - Fig. 02는 Seq2Seq 모델을 학습(training)하는 방법을 보여주고 있음
 - 인코딩
