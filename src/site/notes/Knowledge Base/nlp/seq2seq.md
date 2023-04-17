@@ -33,7 +33,6 @@
 > - ex) 문장(sentence) : 단어 또는 글자들의 시퀸스. 문장을 구성하는 단어 또는 글자들의 순서가 바뀌면 다른 의미의 문장이 된다.
 
 
-
 ![seq2seq.png](/img/user/Knowledge%20Base/nlp/seq2seq.png)
 
 ## Seq2Seq 모델의 동작 방법
@@ -59,7 +58,6 @@
 - Seq2Seq 모델을 사용(inference)할 땐 이전 시점의 디코더 출력 단어를 다시 디코더 입력값으로 사용함
 - 하지만 이 방식으로 학습(training)을 시키면 디코더가 잘 학습되지 않음
 - **교사 강요(teacher forcing)** : 모델 학습 시 디코더의 입력값으로 이전 시점의 디코더 출력 단어가 아닌 실제 정답 단어를 입력
-
 
 
 ![seq2seq-teacher-forcing.png](/img/user/Knowledge%20Base/nlp/seq2seq-teacher-forcing.png)
