@@ -1,5 +1,5 @@
 ---
-{"title":"huggingface GPT 모델 종류","date_created":"2023-03-21","date_modified":"2023-02-21","dg-publish":true,"dg-path":"//nlp/huggingface-gpts.md","permalink":"///nlp/huggingface-gpts/","dgPassFrontmatter":true,"created":"","updated":""}
+{"title":"huggingface GPT 모델 종류","date_created":"2023-03-21","date_modified":"2023-02-21","dg-publish":true,"dg-path":"/nlp/huggingface-gpts.md","permalink":"//nlp/huggingface-gpts/","dgPassFrontmatter":true,"created":"","updated":""}
 ---
 
 
