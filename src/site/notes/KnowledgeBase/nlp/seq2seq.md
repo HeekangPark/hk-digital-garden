@@ -1,5 +1,5 @@
 ---
-{"title":"Seq2Seq 모델","date_created":"2023-02-17","date_modified":"2023-02-17","tags":["nlp","pytorch","torch","transformer","attention"],"dg-publish":true,"dg-path":"/nlp/seq2seq.md","permalink":"//nlp/seq2seq/","dgPassFrontmatter":true,"created":"","updated":""}
+{"title":"Seq2Seq 모델","date_created":"2023-02-17","date_modified":"2023-02-17","tags":["nlp","pytorch","torch","transformer","attention"],"dg-publish":true,"permalink":"/knowledge-base/nlp/seq2seq/","dgPassFrontmatter":true,"created":"","updated":""}
 ---
 
 
