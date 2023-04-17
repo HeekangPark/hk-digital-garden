@@ -1,5 +1,5 @@
 ---
-{"title":"CUDA 이해하기","date_created":"2023-04-07","date_modified":"2023-04-07","tags":[],"dg-publish":true,"alias":"CUDA 이해하기","dg-path":"devops/cuda.md","permalink":"/devops/cuda/","dgPassFrontmatter":true,"created":"2023-04-07","updated":"2023-04-07"}
+{"title":"CUDA 이해하기","date_created":"2023-04-07","date_modified":"2023-04-07","tags":[],"dg-publish":true,"dg-path":"devops/cuda.md","permalink":"/devops/cuda/","dgPassFrontmatter":true,"created":"2023-04-07","updated":"2023-04-07"}
 ---
 
 
@@ -121,15 +121,18 @@ NVIDIA RTX A6000 4장이 장착된 Ubuntu 22.04 시스템에 CUDA 11.7.1을 설�
     sudo sh cuda_11.7.1_515.65.01_linux.run
     ```
 
-    ![CUDA Toolkit Installation 1](/img/user/Knowledge Base/devops/cuda-toolkit-installation-1.png)
+    
+    ![cuda-toolkit-installation-1.png](/img/user/Knowledge%20Base/devops/cuda-toolkit-installation-1.png)
     
     다운로드한 CUDA Toolkit에는 display driver가 같이 포함되어 있다. 2번 과정에서 display driver를 이미 설치했기에, display driver를 설치할거면 기존 display driver를 지우고 진행하라는 안내가 뜰 것이다. 우린 CUDA Toolkit만 설치할 것이기 때문에 "Continue"를 선택하고 진행한다.
-
-    ![CUDA Toolkit Installation 2](/img/user/Knowledge Base/devops/cuda-toolkit-installation-2.png)
+    
+    
+    ![cuda-toolkit-installation-2.png](/img/user/Knowledge%20Base/devops/cuda-toolkit-installation-2.png)
 
     다음은 최종 사용자 라이선스에 동의하라는 안내문이 뜨는데, "accept"를 입력하고 진행한다.
 
-    ![CUDA Toolkit Installation 3](/img/user/Knowledge Base/devops/cuda-toolkit-installation-3.png)
+    
+    ![cuda-toolkit-installation-3.png](/img/user/Knowledge%20Base/devops/cuda-toolkit-installation-3.png)
 
     설치할 항목을 선택하는 창이 뜬다. CUDA Toolkit을 제외한 나머지 항목은 모두 체크 해제한다. 완료했으면 "Install"을 선택해 설치를 진행한다.
 
