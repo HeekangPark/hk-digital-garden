@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge-base/nlp/huggingface-gpts/","title":"huggingface GPT 모델 종류","tags":["gardenEntry"],"created":"","updated":""}
+{"title":"huggingface GPT 모델 종류","date_modified":"2023-02-21","dg-home":true,"dg-publish":true,"alias":"huggingface GPT 모델 종류","permalink":"/knowledge-base/nlp/huggingface-gpts/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"","updated":""}
 ---
 
 
