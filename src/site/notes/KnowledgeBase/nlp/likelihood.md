@@ -1,5 +1,5 @@
 ---
-{"title":"Likelihood","date_created":"2023-01-26","date_modified":"2023-01-29","dg-publish":true,"dg-path":"/nlp/likelihood.md","permalink":"//nlp/likelihood/","dgPassFrontmatter":true,"created":"","updated":""}
+{"title":"Likelihood","date_created":"2023-01-26","date_modified":"2023-01-29","dg-publish":true,"permalink":"/knowledge-base/nlp/likelihood/","dgPassFrontmatter":true,"created":"","updated":""}
 ---
 
 
