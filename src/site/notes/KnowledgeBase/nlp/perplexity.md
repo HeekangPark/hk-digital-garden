@@ -1,5 +1,5 @@
 ---
-{"title":"Perplexity","date_created":"2023-01-29","date_modified":"2023-01-29","dg-publish":true,"dg-path":"//nlp/perplexity.md","permalink":"///nlp/perplexity/","dgPassFrontmatter":true,"created":"","updated":""}
+{"title":"Perplexity","date_created":"2023-01-29","date_modified":"2023-01-29","dg-publish":true,"dg-path":"/nlp/perplexity.md","permalink":"//nlp/perplexity/","dgPassFrontmatter":true,"created":"","updated":""}
 ---
 
 
