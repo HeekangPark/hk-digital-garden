@@ -1,5 +1,5 @@
 ---
-{"title":"Padded Sequence vs. Packed Sequence","date_created":"2023-02-21","date_modified":"2023-02-21","tags":["nlp","pytorch","transformers"],"dg-publish":true,"dg-path":"nlp/padded-sequence-vs-packed-sequence.md","permalink":"/nlp/padded-sequence-vs-packed-sequence/","dgPassFrontmatter":true,"created":"2023-02-21","updated":"2023-02-21"}
+{"title":"Padded Sequence vs. Packed Sequence","date_created":"2023-02-21","date_modified":"2023-02-21","tags":["nlp","pytorch","transformers"],"dg-publish":true,"alias":"Padded Sequence vs. Packed Sequence","dg-path":"nlp/padded-sequence-vs-packed-sequence.md","permalink":"/nlp/padded-sequence-vs-packed-sequence/","dgPassFrontmatter":true,"created":"2023-02-21","updated":"2023-02-21"}
 ---
 
 
