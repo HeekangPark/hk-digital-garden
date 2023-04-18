@@ -1,5 +1,5 @@
 ---
-{"title":"CUDA 이해하기","date_created":"2023-04-07","date_modified":"2023-04-07","tags":[],"dg-publish":true,"dg-path":"devops/cuda.md","permalink":"/devops/cuda/","dgPassFrontmatter":true,"created":"2023-04-07","updated":"2023-04-07"}
+{"title":"CUDA 이해하기","date_created":"2023-04-07","date_modified":"2023-04-07","tags":[],"dg-publish":true,"alias":"CUDA 이해하기","dg-path":"devops/cuda.md","permalink":"/devops/cuda/","dgPassFrontmatter":true,"created":"2023-04-07","updated":"2023-04-07"}
 ---
 
 
