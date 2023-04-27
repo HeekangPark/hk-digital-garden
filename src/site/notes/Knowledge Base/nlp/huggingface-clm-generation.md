@@ -40,6 +40,16 @@
 
 - LM head의 출력값(즉, logit)에 softmax를 씌우면, vocabulary에 있는 각 token들이 다음 token으로 올 수 있는 확률(probability)을 얻을 수 있다.
 
+### 🤗huggingface에서의 text generation
+
+- 🤗huggingface의 모든 model들은 `GenerationMixin`을 상속받는 `PreTrainedModel`을 상속받음
+- `GenerationMixin`에는 (후술할) 다양한 text generation strategy와, 원하는 strategy를 손쉽게 호출할 수 있는 `.generate()` 메소드가 구현되어 있음
+- 즉, 🤗huggingface의 모든 model들은 `.generate()` 메소드를 포함해 `GenerationMixin`에 정의된 메소드들을 호출할 수 있음
+    - 단, `.prepare_inputs_for_generation()` 메소드를 추가로 구현해야만 `.generate()` 메소드를 사용할 수 있음. 해당 메소드가 구현되어 있지 않다면 `.generate()` 메소드를 호출은 할 수 있지만 오류가 발생.
+
+- 마찬가지로, custom model이 `PreTrainedModel`을 상속받는다면 `.generate()` 메소드를 사용할 수 있음
+    - 물론 이 경우에도 `.prepare_inputs_for_generation()` 메소드를 구현해야만 함
+
 ### 기타
 
 - (길이가 다른) batch 입력을 처리하려면, padding을 왼쪽에 주어야 한다.
