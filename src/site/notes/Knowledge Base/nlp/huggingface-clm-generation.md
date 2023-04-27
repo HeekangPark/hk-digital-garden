@@ -1,5 +1,5 @@
 ---
-{"title":"Text Generation with CLM","date_created":"2023-04-25","date_modified":"2023-04-25","dg-publish":true,"alias":"Text Generation with CLM","dg-path":"nlp/huggingface-clm-generation.md","permalink":"/nlp/huggingface-clm-generation/","dgPassFrontmatter":true,"created":"2023-04-25","updated":"2023-04-25"}
+{"title":"Text Generation with CLM","date_created":"2023-04-25","date_modified":"2023-04-27","dg-publish":true,"dg-path":"nlp/huggingface-clm-generation.md","permalink":"/nlp/huggingface-clm-generation/","dgPassFrontmatter":true,"created":"2023-04-25","updated":"2023-04-27"}
 ---
 
 
